@@ -11,41 +11,60 @@
 /*     background-color:grey;*/
 }
 .container .heading h1{
-    color: beige;
+    font-size:5em;
+    color: burlywood;
     font-weight: bold;
     text-align: center;
 }
 .container .heading p{
     text-align: center;
     color: orange;
+    font-size:20px;
     
 }
-.selectcategory {
-    color:blue;
-   
-/*    background-color: black;*/
+#selectcategory {
+    color:black;
+    padding: 7px;
     border-radius: 10px;
 }
-.selectcategory option{
+#selectcategory option{
     background-color: black;
     
 }
+
 input{
     background-color: white;
     color: black;
     border-radius: 10px;
-    padding:7px
+    padding:7px;
 }
 label{
     color: beige;
+    font-size:16px;
 }
 .pricing{
 /*    background-color: dimgrey;*/
 }
 .pricing h1{
      
-    color: beige;
+    color: burlywood;
     font-weight: bold;
+}
+
+.payment h1{
+     color: burlywood;
+     font-weight: bold;
+}
+.termsofagreement h1{
+     color: burlywood;
+     font-weight: bold;
+}
+.travel h1{
+     color: burlywood;
+     font-weight: bold;
+}
+.travel p{
+    color: orange;
 }
  p{
     color: orange;
@@ -54,5 +73,3 @@ label{
 h3{
     color: white;
 }
-
-.termsofagreement h1
